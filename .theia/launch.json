@@ -6,7 +6,7 @@
       {
           "type": "gdb",
           "request": "launch",
-          "name": "GDB Launch Program",
+          "name": "Debug Rust Code",
           "preLaunchTask": "cargo",
           "target": "${workspaceFolder}/target/debug/rust_debug",
           "cwd": "${workspaceFolder}",
