@@ -3,13 +3,14 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-        {
-            "name": "Debug Rust Code",
-            "type": "lldb",
-            "request": "launch",
-            "program": "${workspaceRoot}/target/debug/rust_debug",
-            "args": [],
-            "cwd": "${workspaceRoot}",
-        }
-   ]
+      {
+          "type": "gdb",
+          "request": "launch",
+          "name": "GDB Launch Program",
+          "preLaunchTask": "cargo",
+          "target": "${workspaceFolder}/target/debug/rust_debug",
+          "cwd": "${workspaceFolder}",
+          "valuesFormatting": "parseText"
+      }
+  ]
 }
