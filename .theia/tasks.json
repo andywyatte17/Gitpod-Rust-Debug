@@ -3,13 +3,14 @@
         {
             "version": "0.1.0",
             "command": "cargo",
+            "isBackground": true,
             "isShellCommand": true,
             "args": [
                 "build"
             ],
             "type": "process",
             "label": "cargo",
-            "showOutput": "always"
+            "showOutput": "never"
         }
     ],
 }

@@ -1,6 +1,5 @@
-image:
-  file: .gitpod.Dockerfile
 vscode:
   extensions:
-    - vadimcn.vscode-lldb@1.5.0:yFDK2UcKYr9IOO0pOjatlA==
     - webfreak.debug@0.24.0:1zVcRsAhewYEX3/A9xjMNw==
+tasks:
+  - command: cargo run
