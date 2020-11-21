@@ -10,6 +10,15 @@
             "type": "process",
             "label": "cargo",
             "showOutput": "always"
+        },
+        {
+            "type": "cargo",
+            "subcommand": "build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ],
 }
